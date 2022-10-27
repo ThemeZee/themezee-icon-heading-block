@@ -30,8 +30,8 @@ add_action( 'init', 'register_themezee_icon_heading_block' );
  * Set up the Plugin Updater Constants.
  */
 define( 'THEMEZEE_ICON_HEADING_BLOCK_VERSION', '1.0' );
-define( 'THEMEZEE_ICON_HEADING_BLOCK_NAME', 'Icon Block' );
-define( 'THEMEZEE_ICON_HEADING_BLOCK_ID', 53694 );
+define( 'THEMEZEE_ICON_HEADING_BLOCK_NAME', 'Mercia Pro' );
+define( 'THEMEZEE_ICON_HEADING_BLOCK_ID', 149520 );
 define( 'THEMEZEE_ICON_HEADING_BLOCK_STORE_URL', 'https://themezee.com' );
 
 
