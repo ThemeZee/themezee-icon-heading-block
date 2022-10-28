@@ -2,6 +2,15 @@
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
 	"name": "themezee/icon-heading",
-	"textdomain": "themezee-icon-block",
-	"editorScript": "file:./index.js"
+	"version": "0.1.0",
+	"title": "Icon Heading",
+	"category": "design",
+	"description": "Create an icon heading.",
+	"supports": {
+		"className": true
+	},
+	"textdomain": "themezee-icon-heading-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
 }
