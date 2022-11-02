@@ -1,0 +1,12 @@
+.editor-styles-wrapper {
+	.wp-block-themezee-icon-heading {
+		.wp-block-heading {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	
+		&.is-layout-flex {
+			gap: 0.5em;
+		}
+	}
+}

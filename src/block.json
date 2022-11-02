@@ -7,7 +7,38 @@
 	"category": "themezee-blocks",
 	"description": "Create an icon heading.",
 	"supports": {
-		"className": true
+		"align": [ "wide", "full" ],
+		"__experimentalExposeControlsToChildren": true,
+		"__experimentalLayout": {
+			"allowSwitching": false,
+			"allowInheriting": false,
+			"default": {
+				"type": "flex"
+			}
+		},
+		"color": {
+			"gradients": true,
+			"link": true,
+			"__experimentalDefaultControls": {
+				"text": true,
+				"background": true,
+				"link": false
+			}
+		},
+		"spacing": {
+			"margin": [ "top", "bottom" ],
+			"padding": true,
+			"blockGap": true,
+			"__experimentalDefaultControls": {
+				"blockGap": true
+			}
+		},
+		"__experimentalBorder": {
+			"color": true,
+			"style": true,
+			"width": true,
+			"radius": true
+		}
 	},
 	"textdomain": "themezee-icon-heading-block",
 	"editorScript": "file:./index.js",
