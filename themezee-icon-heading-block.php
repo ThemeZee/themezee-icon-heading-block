@@ -26,6 +26,25 @@ function register_themezee_icon_heading_block() {
 add_action( 'init', 'register_themezee_icon_heading_block' );
 
 
+if ( ! function_exists( 'register_themezee_blocks_block_category' ) ) :
+	/**
+	 * Add ThemeZee Blocks category to Block Inserter.
+	 */
+	function register_themezee_blocks_block_category( $categories, $post ) {
+		return array_merge(
+			$categories,
+			array(
+				array(
+					'slug'  => 'themezee-blocks',
+					'title' => __( 'ThemeZee Blocks', 'themezee-icon-block' ),
+				),
+			)
+		);
+	}
+	add_filter( 'block_categories_all', 'register_themezee_blocks_block_category', 10, 2 );
+endif;
+
+
 /**
  * Set up the Plugin Updater Constants.
  */

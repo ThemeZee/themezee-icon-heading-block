@@ -4,7 +4,7 @@
 	"name": "themezee/icon-heading",
 	"version": "0.1.0",
 	"title": "Icon Heading",
-	"category": "design",
+	"category": "themezee-blocks",
 	"description": "Create an icon heading.",
 	"supports": {
 		"className": true
