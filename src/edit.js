@@ -12,7 +12,8 @@ import {
  */
 import './editor.scss';
 
-export default function Edit() {
+export default function Edit( { attributes } ) {
+	const { layout = {} } = attributes;
 	const blockProps = useBlockProps();
 	const innerBlocksProps = useInnerBlocksProps( blockProps, {
 		allowedBlocks: [ 'themezee/icon', 'core/heading' ],
@@ -28,6 +29,7 @@ export default function Edit() {
 				placeholder: __( 'Icon Heading' ),
 			} ] 
 		],
+		__experimentalLayout: layout,
 		renderAppender: false,
 	} );
 
