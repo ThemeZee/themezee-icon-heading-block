@@ -25,7 +25,8 @@ class ThemeZee_Icon_Heading_Block_License_Settings {
 		add_action( 'admin_init', array( __CLASS__, 'deactivate_license' ) );
 
 		// Add Admin notices.
-		add_action( 'admin_notices', array( __CLASS__, 'admin_notices' ) );
+		add_action( 'admin_notices', array( __CLASS__, 'license_activated_notice' ) );
+		add_action( 'admin_notices', array( __CLASS__, 'plugin_page_notice' ) );
 	}
 
 	/**
@@ -285,7 +286,7 @@ class ThemeZee_Icon_Heading_Block_License_Settings {
 	/**
 	 * This is a means of catching errors from the activation method above and displaying it to the customer
 	 */
-	static function admin_notices() {
+	static function license_activated_notice() {
 		if ( isset( $_GET['icon_heading_block_activation'] ) && ! empty( $_GET['message'] ) ) {
 
 			switch ( $_GET['icon_heading_block_activation'] ) {
@@ -306,6 +307,33 @@ class ThemeZee_Icon_Heading_Block_License_Settings {
 
 			}
 		}
+	}
+
+	/**
+	 * Display activate license notice
+	 *
+	 * @return void
+	 */
+	static function plugin_page_notice() {
+		global $pagenow;
+		$options = self::get_settings();
+
+		if ( 'valid' !== $options['icon_heading_block_license_status'] && in_array( $pagenow, array( 'index.php', 'update-core.php', 'plugins.php' ) ) && ! isset( $_GET['page'] ) && current_user_can( 'manage_options' ) ) :
+			?>
+
+			<div class="notice notice-info">
+				<p>
+					<?php
+					printf( __( 'Please enter your license key for the %1$s in order to receive updates and support. <a href="%2$s">Enter License Key</a>', 'themezee-icon-heading-block' ),
+						'ThemeZee Icon Heading Block',
+						admin_url( 'options-general.php?page=themezee-blocks' )
+					);
+					?>
+				</p>
+			</div>
+
+			<?php
+		endif;
 	}
 }
 
