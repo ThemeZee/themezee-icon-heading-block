@@ -2,9 +2,9 @@
 /**
  * Plugin Name:       ThemeZee Icon Heading Block
  * Description:       Display a SVG icon.
- * Requires at least: 6.0
+ * Requires at least: 6.1
  * Requires PHP:      7.0
- * Version:           0.1.0
+ * Version:           1.0
  * Author:            ThemeZee
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -73,8 +73,8 @@ endif;
  * Set up the Plugin Updater Constants.
  */
 define( 'THEMEZEE_ICON_HEADING_BLOCK_VERSION', '1.0' );
-define( 'THEMEZEE_ICON_HEADING_BLOCK_NAME', 'Mercia Pro' );
-define( 'THEMEZEE_ICON_HEADING_BLOCK_ID', 149520 );
+define( 'THEMEZEE_ICON_HEADING_BLOCK_NAME', 'ThemeZee Icon Heading Block' );
+define( 'THEMEZEE_ICON_HEADING_BLOCK_ID', 255878 );
 define( 'THEMEZEE_ICON_HEADING_BLOCK_STORE_URL', 'https://themezee.com' );
 
 
