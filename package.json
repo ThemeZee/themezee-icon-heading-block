@@ -13,6 +13,7 @@
 		"packages-update": "wp-scripts packages-update",
 		"plugin-zip": "wp-scripts plugin-zip",
 		"start": "wp-scripts start",
+		"export": "git archive HEAD -9 --prefix themezee-icon-heading-block/ --format=zip > ../../themezee-icon-heading-block.zip",
 		"make-pot": "wp i18n make-pot ./ languages/themezee-icon-heading-block.pot --slug=themezee-icon-heading-block --domain=themezee-icon-heading-block --exclude=.git,src,node-modules",
 		"make-json": "wp i18n make-json languages --no-purge"
 	},
