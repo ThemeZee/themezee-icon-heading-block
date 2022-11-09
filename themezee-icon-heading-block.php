@@ -21,9 +21,19 @@
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
 function register_themezee_icon_heading_block() {
+
+	// Load translation for PHP files.
+	load_plugin_textdomain( 'themezee-icon-heading-block', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+
 	// Only register blocks if Icon block is activated.
 	if ( function_exists( 'register_themezee_icon_block' ) ) {
-		register_block_type( __DIR__ . '/build' );
+		register_block_type( __DIR__ . '/build', [
+			'title'       => _x( 'Icon Heading', 'block title', 'themezee-icon-heading-block' ),
+			'description' => _x( 'Create an icon heading.', 'block description', 'themezee-icon-heading-block' ),
+		] );
+
+		// Load translation for JS files.
+		wp_set_script_translations( 'themezee-icon-heading-editor-script', 'themezee-icon-heading-block', plugin_dir_path( __FILE__ ) . 'languages' );
 	}
 }
 add_action( 'init', 'register_themezee_icon_heading_block' );

@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Themes + Pro Versions + Add-ons\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/themezee-icon-"
+"heading-block\n"
+"POT-Creation-Date: 2022-11-09T10:57:18+00:00\n"
+"PO-Revision-Date: 2022-11-09 12:03+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.2\n"
+
+#. Plugin Name of the plugin
+msgid "ThemeZee Icon Heading Block"
+msgstr "ThemeZee Icon Heading Block"
+
+#. Description of the plugin
+msgid "Display a SVG icon."
+msgstr "Ein SVG-Icon anzeigen."
+
+#. Author of the plugin
+msgid "ThemeZee"
+msgstr "ThemeZee"
+
+#: includes/class-themezee-blocks-admin-page.php:37
+#: includes/class-themezee-blocks-admin-page.php:38
+#: includes/class-themezee-blocks-admin-page.php:54
+msgid "ThemeZee Blocks"
+msgstr "ThemeZee Blocks"
+
+#: includes/class-themezee-blocks-admin-page.php:83
+msgid "License Settings"
+msgstr "Lizenz-Einstellungen"
+
+#: includes/class-themezee-blocks-admin-page.php:100
+msgid "An active license key is needed to install updates and receive support."
+msgstr ""
+"Ein aktiver Lizenzschlüssel ist erforderlich, um Updates zu installieren und "
+"Support zu erhalten."
+
+#: includes/class-themezee-icon-heading-block-license-settings.php:54
+msgid "Icon Heading Block"
+msgstr "Icon Heading Block"
+
+#: includes/class-themezee-icon-heading-block-license-settings.php:72
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: includes/class-themezee-icon-heading-block-license-settings.php:73
+msgid "Active. You are receiving updates."
+msgstr "Aktiv. Du erhältst Updates."
+
+#: includes/class-themezee-icon-heading-block-license-settings.php:76
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#: includes/class-themezee-icon-heading-block-license-settings.php:77
+msgid "Inactive. Please enter your license key."
+msgstr "Inaktiv. Bitte gebe deinen Lizenzschlüssel ein."
+
+#. translators: the license key expiration date
+#: includes/class-themezee-icon-heading-block-license-settings.php:151
+msgid "Your license key expired on %s."
+msgstr "Dein Lizenzschlüssel ist am %s abgelaufen."
+
+#: includes/class-themezee-icon-heading-block-license-settings.php:158
+msgid "Your license key has been disabled."
+msgstr "Dein Lizenzschlüssel wurde deaktiviert."
+
+#: includes/class-themezee-icon-heading-block-license-settings.php:162
+msgid "Invalid license."
+msgstr "Ungültige Lizenz."
+
+#: includes/class-themezee-icon-heading-block-license-settings.php:167
+msgid "Your license is not active for this URL."
+msgstr "Deine Lizenz ist für diese URL nicht aktiviert."
+
+#. translators: the plugin name
+#: includes/class-themezee-icon-heading-block-license-settings.php:172
+msgid "This appears to be an invalid license key for %s."
+msgstr "Dies scheint ein ungültiger Lizenzschlüssel für %s zu sein."
+
+#: includes/class-themezee-icon-heading-block-license-settings.php:176
+msgid "Your license key has reached its activation limit."
+msgstr "Dein Lizenzschlüssel hat die Aktivierungsgrenze erreicht."
+
+#: includes/class-themezee-icon-heading-block-license-settings.php:180
+msgid "An error occurred, please try again."
+msgstr "Ein Fehler ist aufgetreten, bitte versuche es noch einmal."
+
+#: includes/class-themezee-icon-heading-block-license-settings.php:327
+msgid ""
+"Please enter your license key for the %1$s in order to receive updates and "
+"support. <a href=\"%2$s\">Enter License Key</a>"
+msgstr ""
+"Bitte aktiviere deinen Lizenzschlüssel für %1$s Add-on, um automatische "
+"Updates und Support zu erhalten. <a href=\"%2$s\">Lizenzschlüssel eingeben</"
+"a>"
+
+#: themezee-icon-heading-block.php:31 build/block.json
+msgctxt "block title"
+msgid "Icon Heading"
+msgstr "Icon Heading"
+
+#: themezee-icon-heading-block.php:32 build/block.json
+msgctxt "block description"
+msgid "Create an icon heading."
+msgstr "Eine Überschrift mit Icon anzeigen."
+
+#: themezee-icon-heading-block.php:53
+msgid ""
+"The ThemeZee Icon Heading Block needs the ThemeZee Icon Block in order to "
+"work. Please install and activate it."
+msgstr ""
+"Der ThemeZee Icon Heading Block benötigt den ThemeZee Icon Block, um zu "
+"funktionieren. Bitte installiere und aktiviere den Icon Block."

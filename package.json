@@ -12,7 +12,9 @@
 		"lint:js": "wp-scripts lint-js",
 		"packages-update": "wp-scripts packages-update",
 		"plugin-zip": "wp-scripts plugin-zip",
-		"start": "wp-scripts start"
+		"start": "wp-scripts start",
+		"make-pot": "wp i18n make-pot ./ languages/themezee-icon-heading-block.pot --slug=themezee-icon-heading-block --domain=themezee-icon-heading-block --exclude=.git,src,node-modules",
+		"make-json": "wp i18n make-json languages --no-purge"
 	},
 	"devDependencies": {
 		"@wordpress/scripts": "^24.4.0"
