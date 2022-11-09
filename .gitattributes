@@ -1,0 +1,11 @@
+/sass export-ignore
+/src export-ignore
+/assets/icons/src export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
+gulpfile.js export-ignore
+package.json export-ignore
+package-lock.json export-ignore
+webpack.config.js export-ignore
+babel.config.json export-ignore
+.editorconfig export-ignore
