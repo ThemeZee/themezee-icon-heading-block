@@ -26,7 +26,7 @@ export default function Edit( { attributes } ) {
 				iconHeight: "48px",
 			} ],
 			[ 'core/heading', {
-				placeholder: __( 'Icon Heading' ),
+				placeholder: __( 'Icon Heading', 'themezee-icon-heading-block' ),
 			} ] 
 		],
 		__experimentalLayout: layout,
