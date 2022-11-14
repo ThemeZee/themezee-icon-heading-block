@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       ThemeZee Icon Heading Block
- * Description:       Display a SVG icon.
+ * Description:       Create an icon heading.
  * Requires at least: 6.1
  * Requires PHP:      7.0
  * Version:           1.0
