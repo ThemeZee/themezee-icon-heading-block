@@ -1,0 +1,16 @@
+{
+    "name": "themezee/themezee-icon-heading-block",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "ThemeZee",
+            "email": "contact@themezee.com",
+            "homepage": "https://themezee.com/",
+            "role": "Company"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
